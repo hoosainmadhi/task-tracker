@@ -52,9 +52,7 @@ export default {
             this.day=''
             this.reminder=false
 
-            this.$emit('add-task',newTask)
-
-            
+            this.$emit('add-task',newTask) //event name + data we want to pass with the event
         }
     }
 
